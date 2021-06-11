@@ -27,11 +27,11 @@ async def on_message(message):
                     #메시지 관리권한이 있을시 사용가능
                     if message.author.guild_permissions.manage_messages:
                         embed = discord.Embed(color=0x1DDB16, timestamp=message.created_at)
-                        embed.add_field(name="★★제목★★", value=msg, inline=True)
-                        embed.set_footer(text="★맨 밑에 들어갈 내용★")
+                        embed.add_field(name="DM", value=msg, inline=True)
+                        embed.set_footer(text="마인")
                         await i.send(embed=embed)
                 except:
                     pass
 
 
-client.run('★★봇토큰★★')
+client.run('ODUyNzc3MzE0MzIzMzk4NjU3.YMLwww.IeuBSBHDzH7M-kE0j1TjcxfCeIo')
